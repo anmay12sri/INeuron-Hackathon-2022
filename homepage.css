@@ -1,0 +1,238 @@
+.header
+{
+    float:center;
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+    font-size: 17px;
+}
+
+.body
+{
+    background-color: black;
+}
+
+.flex
+{
+    background-color: black;
+
+}
+table, td
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    margin: 0px;
+    /* border: 10px; */
+}
+
+.why
+{
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color:rgb(185, 129, 24);
+}
+.why1
+{
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color:rgb(39, 142, 94);
+}
+.pic
+{
+    align:left;
+}
+
+.p
+{
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color:rgb(185, 129, 24);
+}
+h{
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:aqua;
+    margin: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-color: black;
+    border: 0ch;
+
+    
+}
+
+.w
+{
+    font-size: 30px;
+    font-weight: bold;
+    background-color:aqua;
+    margin: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-color: black;
+    border: 0ch;
+
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.table
+ {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.home
+{
+    font-size:30px;
+}
+.write {
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+      color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+      text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+    margin: 3rem;
+    border-radius: 20px;
+  }
+#s
+{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: larger;
+}
+
+.search
+{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 9px;
+}
+
+
+
+body{
+    
+    background-color: aqua;
+}
+.log
+{
+    float:right;
+    padding:10px;
+}
+.nav
+{
+    /* background-color: blanchedalmond; */
+    font-size: 19px;
+    margin: 0px;
+    padding: 20px;
+}
+#h
+{
+    text-decoration: solid;
+}
+#log
+{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: larger;
+}
+
+
+
+#sign
+{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: larger;
+}
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(127, 127, 218);
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+}
+.joinBtn:hover {
+    background-color: bisque;
+}
+/* a:hover
+{
+    background-color:orchid;
+} */
+.box
+{
+    width: 180px;
+    border: 15px solid orange;
+    padding: 5px;
+    margin: 2px;
+    background-color: orange;
+}
+a
+{
+    text-decoration: none;
+    
+}
+.head
+{
+    text-align : center;
+    float: right;
+    font-size: larger;
+}
+
+.table
+{   
+    border-collapse: collapse;
+    /* padding: 100px; */
+    /* margin:20px; */
+    border: 0px;
+}
+
+.login
+{
+    float:right;
+    text-align: right;
+    font-size: medium;
+}
+.signup
+{
+    font-size: large;
+    text-align: right;
+}
+
+.write
+{
+    float: center;
+    text-align: center;
+    border: 10px;
+    padding: 190px;
+    background-color: antiquewhite;
+}

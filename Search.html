@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <!-- <link rel="stylesheet" href="search.css"> -->
+    <title>Document</title>
+    <style>
+        .box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3px solid salmon;
+    border-radius: 20px;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px;
+    width: 70%;
+    height: 30%;
+    font-size: 30px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+ }
+  .heading{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ #input{
+     width: 450px;
+    height: 60px;
+    border-radius: 9px;
+    border-color: brown;
+ } 
+  input,placeholder{
+    font-size: 25px;
+    font-weight: bolder;
+ } 
+ .heading{
+    background-color: aqua;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 9px;
+    border-color: black;
+ }
+    </style>
+</head>
+<body>
+   
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById('myInput');
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }  
+        </script>
+    <div class="left">
+        
+    </div>
+    <center>
+    <div class="right">
+        <input id="input" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for blogs here">
+    </center>
+        <ul id="myUL">
+    
+          <li><a href="#"><div class="heading" align="center">Why did I learn to code?</div><div class="box">I’m an English and Psychology major who had a variety of jobs before I started coding. I began my coding journey seven years ago because I wasn’t satisfied with my work at the time — I didn’t find it creatively fulfilling. A coworker recommended looking into web design and I thought it was a good idea. I tried out online coding courses and ended up loving using language in such a tangible way. After months of going through online courses and researching other ways to learn, I decided to commit to it as a career and joined a bootcamp. Seven years later, I’m still learning and enjoying the journey.</div></a></li>
+        
+   
+          <li><a href="#"><div class="heading" align="center">why to code?</div><div class="box">Outside from the implications of coding which look good on a resume, coding actually does boost skills which are actually useful to most jobs. Problem solving and logic are the main two. Learning to code is like an exercise session for the “left” side of the brain.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est odit adipisci reiciendis, iure totam doloremque aperiam qui suscipit nulla! Porro eaque quos, vero omnis assumenda corporis magnam amet laboriosam earum necessitatibus ducimus quam nemo eos. Doloribus alias laboriosam velit at.</div></a></li>
+        
+   
+          <li><a href="#"><div class="heading" align="center">e waste management</div><div class="box">E-Waste Management Initiative
+            Under the Environment (Protection) Act 1986, central and state governments can enact legislations to safeguard the environment and people from exposure to toxic and hazardous nature of waste. Any violation of the provision of this act or notified rules is liable for punishment.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">Water Crisis in India</div><div class="box">A report titled “Composite Water Management Index (CWMI)”, published by NITI Aayog in June 2018, mentioned that India was undergoing the worst water crisis in its history; that nearly 600 million people were facing high to extreme water stress; and about 200,000 people were dying every year due to inadequate access to safe water</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">Benefits of yoga</div><div class="box" align="center">Yoga helps you in all-around fitness <br>
+            Yoga benefits in weight loss<br>
+            Yoga is one of the best solutions for stress relief<br>
+            Yoga helps for inner peace<br>
+            Yoga Improves Immunity<br>
+            Practice of Yoga Offers Greater Awareness<br>
+            Yoga improves relationships<br>
+            Yoga Increases Energy<br>
+            Yoga Gives you Better Flexibility and Posture<br>
+            Yoga helps in improving intuition</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">side effects of coconut water</div><div class="box">It might cause fullness or stomach upset in some people. But this is uncommon. In large amounts, coconut water might cause potassium levels in the blood to become too high. This might lead to kidney problems and irregular heartbeat</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">What Effects do Chlorofluorocarbons Have on Humans?</div><div class="box">Chlorofluorocarbons, commonly referred to as CFCs, are non-combustible liquids that were, at one time, frequently used as refrigerants and aerosol propellants, as well as for cleaning products. Since scientists linked CFCs to the depletion of the ozone layer, they have been largely phased out, but old refrigerators and other devices that use CFCs might still be in service. Through inhalation, digestion or other physical contact, as well as from exposure to harmful levels of ultraviolet rays, CFCs can have a negative impact on human health.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">effect of online classes on students</div><div class="box">Online learning has helped students to become independent learners before they make their way into the real world. Students got opportunities to explore new learning applications and platforms during the class, which helped them to develop new skills and capabilities accelerating their growth trajectory.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">Ways to stay motivated</div><div class="box">Regularly review your goals and progress. ...
+            Continue to set new goals. ...
+            Keep the momentum up. ...
+            Find mentors – a mentor is someone who is experienced in the habit you want to change. ...
+            Surround yourself with positive people. ...
+            Use exercise as one of your daily goals to improve your mental health.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">pros of linux over windows</div><div class="box">Everyone uses Windows for different reasons:
+
+            Windows OS (operating system) comes as the default OS on their PC (personal computer).
+            Users grew up with different versions of the Windows OS, so it’s difficult to change.
+            Most people think Windows is the only alternative for their desktop PC. Aside from the Mac OS, they are not exposed to more alternatives.The Windows alternative I’m presenting here is Linux.
+
+            Linux is an open-source operating system developed by the community. Linux is Unix-like, which means it’s based on the same principles as other Unix-based systems. Linux is free and has different distributions, for example Ubuntu, CentOS, and Debian.
+            
+            Every distribution has its pros and cons. Each is used for different applications. Linux’s hard disk is considered a lightweight. It’s used in embedded systems, smart home devices, IoT (Internet-of-things), and much more. Android OS is also based on Linux.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">why to join competetion</div><div class="box">By participating in a competition organized by a company, university or other organization, you have a new opportunity to show your talent and apply your skills. In turn, the rewards of student competitions, whether tangible or otherwise, can help you achieve your educational and professional goals</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">What Are the Effects of Alcohol on the Body?
+        </div><div class="box">You won’t necessarily feel alcohol’s impact on your body right away, but it starts from the moment you take your first sip.
+
+            If you drink, you’ve probably had some experience with alcohol’s effects, from the warm buzz that kicks in quickly to the not-so-pleasant wine headache, or the hangover that shows up the next morning. Since those effects don’t last long, you might not worry much about them, especially if you don’t drink often.
+            
+            Many people assume the occasional beer or glass of wine at mealtimes or special occasions doesn’t pose much cause for concern. But drinking any amount of alcohol can potentially lead to unwanted health consequences.
+            
+            People who binge drink or drink heavily may notice more health effects sooner, but alcohol also poses some risks for people who drink in moderation.</div></a></li>
+   
+          <li><a href="#"><div class="heading" align="center">impact of technology</div><div class="box">In the past few decades, technology grows rapidly. And the use of technology is also increased drastically. It affects the life of people and changes the way of their learning, thinking, and communication. It plays a major role in society, and now it is very tough to imagine the life without technology. Both technology and society are co-related, co-dependent, co-influence with each other. Technology lays an impact on society, including the potential for society to progress or decline, in both good and bad manner. Our society is shaped by technology, which has both beneficial and harmful consequences. Human societies and technology have grown inextricably linked since technical systems like mobile phones, computers, TV, etc. are produced by humans and reflect the very basis of a population’s needs and lifestyle. Although technology improves the lifestyle of human being, it also a major concern for the future generations. Nowadays, people are excessively using technology which reduce their physical activities that directly effect their health. Also, due to the excessive use of technology there are so many cybercrimes happens everyday in which someone steals the identity or personal information of the victim, such as Unique ID number, PAN number, Debit Card, etc., and uses it to conduct a crime or perpetrate fraud without our permission.</div></a></li>
+       
+        
+        </ul>
+    </div>
+</body>
+</html>
